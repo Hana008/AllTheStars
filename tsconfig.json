@@ -1,0 +1,9 @@
+//a small configuration file for the TypeScript compiler, filename is a keyword like knexfile.js 
+{
+    "compilerOptions": {
+      "target": "es5" //the javascript version we want to use
+    },
+    "include": [
+      "src/*" //where to find it (takes everything in this file and compiles it to dist/app.js as per webpack instructions)
+    ]
+  }
